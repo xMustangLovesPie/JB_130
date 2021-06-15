@@ -1,0 +1,17 @@
+.Footer {
+    height: 100%;	
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.Footer > .Socials{
+    grid-column: span 1;
+}
+
+.Footer > .rights{
+    position: relative;
+    top: 50px;
+}
